@@ -1,0 +1,614 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+	
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+		<link href='https://fonts.googleapis.com/css?family=Orbitron:500' rel='stylesheet' type='text/css'/>
+		<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'/>
+
+		<title> Indie Network </title>
+
+	</head>
+
+	<body>
+
+		<div id="headerbar">
+
+			<img src="images/favicon.png" id="image1"/>
+
+			<h1>Indie Network</h1>
+
+			<div id="headerCycle">
+			</div>
+
+			<form action="" id="log-sign-field">
+
+				Username: &nbsp;<input type="text" name="user" id ="user-field"></input><br/>
+				<br/>
+				Password: &nbsp;<input type="password" name="password" id="pass-field"></input>
+
+			</form>
+
+			<ul id="log-sign-btn">
+			
+				<li id="sign-up"><a href"#">Sign&#45;Up</a></li>
+				<li id="log-in" onclick="checkSubmit()"><a href"#">Log&#45;In</a></li>
+				
+			</ul>
+
+			<div id="welcome-message">
+			</div>
+
+		</div>
+
+		<div id="nav">
+			
+			<li class="dropdown">
+				<a class="dropdownButton">New Releases</a>
+				<div id="newReleases">
+					<a>Enter The Gungeon</a>
+					<a>Hyper Light Drifter</a>
+					<a>SteamWorld Heist</a>
+					<a>Screeps</a>
+					<a>Zombie Party</a>
+					<a>Duskers</a>
+					<a>Roguelands</a>
+					<a>Inside</a>
+				</div>
+			</li>
+			
+			<li class="dropdown">
+				<a class="dropdownButton">Highest Rated</a>
+				<div id="highestRated">
+					<a>Broforce</a>
+					<a>Ori and the Blind Forest</a>
+					<a>Nuclear Throne</a>
+					<a>Shovel Knight</a>
+					<a>Darkest Dungeon</a>
+					<a>VVVVVV</a>
+					<a>Duck Game</a>
+					<a>SteamWorld Heist</a>
+				</div>
+			</li>
+			
+			<li class="dropdown">
+				<a class="dropdownButton">Lowest Price</a>
+				<div id="lowestPrice">
+					<a>VVVVVV</a>
+					<a>Nuclear Throne</a>
+					<a>Duck Game</a>
+					<a>Shovel Knight</a>
+					<a>Broforce</a>
+					<a>Desktop Dungeons</a>
+					<a>Sunless Sea</a>
+				</div>
+			</li>
+			
+			<li class="dropdown">
+				<a class="dropdownButton">Best Soundtracks</a>
+				<div id="bestSoundtracks">
+					<a>Ori and the Blind Forest</a>
+					<a>Sunless Sea</a>
+					<a>Shovel Knight</a>
+					<a>Darkest Dungeon</a>
+					<a>VVVVVV</a>
+					<a>Desktop Dungeons</a>
+				</div>
+			</li>
+			
+			<li class="dropdown">
+				<a class="dropdownButton">Recommended For You</a>
+				<div id="recommended">
+					<a>Shovel Knight</a>
+					<a>Enter The Guneon</a>
+					<a>Sunless Sea</a>
+					<a>Darkest Dungeon</a>
+					<a>Nuclear Throne</a>
+					<a>Desktop Dungeons</a>
+					<a>Broforce</a>
+				</div>
+			</li>
+					
+			<li id="search"><form>Search:&nbsp;&nbsp;<input type="search" placeholder="Search by title, developer, release date, genre"/></form></li>
+
+		</div>
+			
+		<div class="card"> 
+
+			<div class="top">
+
+				<div class="preview">
+
+					<img class="previewgif" src="gifs/darkestdungeon1.gif"/>
+					<img class="titleimage" src="images/darkest-dungeon.png"/>
+
+				</div>
+
+				<info>
+
+					<h3>Darkest Dungeon</h3>
+					<p>Red Hook Studios</p>
+					<p>Jan 19, 2016</p>
+					<p>Indie, RPG, Strategy</p>
+
+				</info>
+
+			</div>
+
+			<ul>
+
+				<li><q>Darkest Dungeon is one of the most intense and immersive games out there. A product of creative genius and flawless design, it delivers, with simplistic perfection, a difficult yet addictive experience.</q><br/>98/100 &#45; <strong>Ragequit.gr</strong></li>
+				</br>
+				
+				<li><q>Darkest Dungeon is an incredible take on the classic dungeon crawl.</q><br/>9.25/10 &#45; <strong>Game Informer</strong></li>
+				<br/>
+				
+				<li><q>I can't say enough nice things about Darkest Dungeon.</q><br/> 90/100 &#45; <strong>US Gamer</strong></li>
+				<br/>
+				
+				<li><q>Darkest Dungeon is an awesome game of tactics, management, and pushing your luck.</q><br/>91/100 &#45; <strong>IGN</strong></li>
+
+			</ul>
+
+			<div class="cardlink">
+
+				<a href="http://store.steampowered.com/app/262060/" target="_blank"><p>Store Page</p></a>
+
+			</div>
+
+		</div>
+
+		<div class="card"> 
+
+			<div class ="top">
+
+				<div class="preview">
+
+					<img class="previewgif" src="gifs/shovelknight1.gif"/>
+					<img class="titleimage" src="images/shovel-knight.png"/>
+
+				</div>
+
+				<info>
+
+					<h3>Shovel Knight</h3>
+					<p>Yacht Club Games</p>
+					<p>Jun 26, 2014</p>
+					<p>Action, Adventure, Indie</p>
+
+				</info>
+
+			</div>
+
+			<ul>
+
+				<li><q>Shovel Knight is a loving homage to an era we left behind long ago. The graphics, gameplay, and soundtrack are all pitch&#45;perfect for an NES game... all you're missing is the original cartridge.</q></br>100/100 &#45; <strong>USgamer</strong></li>
+				</br>
+				
+				<li><q>Shovel Knight is one of the best platformers I've ever played, period.</q><br/>9.5/10 &#45; <strong>Destructoid</strong></li>
+				<br/>
+				
+				<li><q>Shovel Knight is an absolute must&#45;play.</q><br/>9/10 &#45; <strong>IGN</strong></li>
+				<br/>
+				
+				<li><q>Shovel Knight is so much more than a love letter to the genre &#45; it is, in fact, the kind of game people write love letters about.</q><br/>9/10 &#45; <strong>Polygon</strong></li>
+
+			</ul>
+
+			<div class="cardlink">
+
+				<a href="http://store.steampowered.com/app/250760/" target="_blank"><p>Store Page</p></a>
+
+			</div>
+
+		</div>
+
+		<div class="card"> 
+
+			<div class="top">
+
+				<div class="preview">
+
+					<img class="previewgif" src="gifs/sunlesssea1.gif"/>
+					<img class="titleimage" src="images/sunless-sea.png"/>
+
+				</div>
+
+				<info>
+
+					<h3>SUNLESS SEA</h3>
+					<p>Failbetter Games</p>
+					<p>Feb 6, 2015</p>
+					<p>Adventure, Indie, RPG</p>
+
+				</info>
+
+			</div>
+
+			<ul>
+
+				<li><q>Sunless Sea's method of storytelling isn't unique, but it has never been realised with such impact and elegance.</q><br/>10/10 &#45; <strong>Eurogamer</strong></li>
+				<br/>
+				
+				<li><q>Absolutely the best writing in any video game since, well, as long as I can remember.</q><br/>10/10 &#45; <strong>PCGamesN</strong></li>
+				<br/>
+				
+				<li><q>A haunting and unforgettable journey to the heart of what made video games fascinating in the first place.</q><br/>92/100 &#45; <strong>Ragequit.gr</strong></li>
+				</br>
+				
+				<li><q>a very compelling and satisfying adventure... The realm of possibilities seems endless, and every time I set sail I find something new.</q><br/>9/10 &#45; <strong>Destructoid</strong></li>
+
+			</ul>
+
+			<div class="cardlink">
+
+				<a href="http://store.steampowered.com/app/304650/" target="_blank"><p>Store Page</p></a>
+
+			</div>
+
+		</div>
+
+		<div class="card"> 
+
+			<div class="top">
+
+				<div class="preview">
+
+					<img class="previewgif" src="gifs/broforce1.gif"/>
+					<img class="titleimage" src="images/broforce.png"/>
+
+				</div>
+
+				<info>
+
+					<h3>Broforce</h3>
+					<p>Free Lives</p>
+					<p>Oct 15, 2015</p>
+					<p>Action, Adventure, Indie</p>
+
+				</info>
+
+			</div>
+
+			<ul>
+
+				<li><q>Broforce is a conceptual triumph that could be successfully sold as a jokey bit of nostalgia, but what's truly amazing is how well it works on a moment&#45;to&#45;moment basis.</q></br>90/100 &#45; <strong>GameCritics</strong></li>
+				</br>
+				
+				<li><q>Play this game. Play it for America.</q><br/>9/10 &#45; <strong>The Escapist</strong></li>
+				<br/>
+				
+				<li><q>Beneath Broforce's bad puns and bulging biceps lies a brilliant ode to action cinema and retro gaming.</q><br/>8.8/10 &#45; <strong>IGN</strong></li>
+				<br/>
+				
+				<li><q>Broforce is pretty much what I had in mind when I invented America.</q><br/><strong>George Washington</strong></li>
+
+			</ul>
+
+			<div class="cardlink">
+
+				<a href="http://store.steampowered.com/app/274190/" target="_blank"><p>Store Page</p></a>
+
+			</div>
+
+		</div>
+
+		<div class="card"> 
+
+			<div class="top">
+
+				<div class="preview">
+
+					<img class="previewgif" src="gifs/desktopdungeons1.gif"/>
+					<img class="titleimage" src="images/desktop-dungeons.png"/>
+
+				</div>
+
+				<info>
+
+					<h3>Desktop Dungeons</h3>
+					<p>QCF Design</p>
+					<p>Nov 7, 2013</p>
+					<p>Casual, Indie, RPG, Strategy</p>
+
+				</info>
+
+			</div>
+
+			<ul>
+
+				<li><q>... a creative, rewarding and utterly addictive game that will keep you raiding goblin lairs until the small hours.</q><br/>4.5/5 &#45; <strong>USgamer</strong></li>
+				<br/>
+				
+				<li><q>One of the best games to come out of the indie dev scene in recent years, Desktop Dungeons takes the best aspects of a roguelike dungeon crawl, distills them down to the essentials, and puts a tactical, puzzle&#45;minded spin on the genre that is not only unique, but brilliantly executed.</q><br/>90/100 &#45; <strong>Gaming Trend</strong></li>
+				<br/>
+				
+				<li><q>One of the most cognitive, strategic gaming experiences available now.</q><br/>88/100 &#45; <strong>RPG Fan</strong></li>
+				<br/>
+				
+				<li><q>QCF Design had a fantastic core game built years ago, and it holds up today, especially with the added bells and whistles.</q><br/>80/100 &#45; <strong>Destructoid</strong></li>
+				<br/>
+				
+			</ul>
+
+			<div class="cardlink">
+
+				<a href="http://store.steampowered.com/app/226620/" target="_blank"><p>Store Page</p></a>
+
+			</div>
+
+		</div>
+
+		<div class="card"> 
+
+			<div class="top">
+
+				<div class="preview">
+
+					<img class="previewgif" src="gifs/ori1.gif"/>
+					<img class="titleimage" src="images/ori-and-the-blind-forest.png"/>
+
+				</div>
+
+				<info>
+
+					<h3>Ori and the Blind Forest</h3>
+					<p>Moon Studios</p>
+					<p>Mar 11, 2015</p>
+					<p>Action, Metroidvania, Indie</p>
+
+
+				</info>
+
+			</div>
+
+			<ul>
+
+				<li><q>An artistic masterclass on virtually every level&#45;it begins perfectly, it ends perfectly, and it delivers a bounty of beautiful, creative platformer goodness in between.</q><br/>95/100 &#45; <strong>GameCritics</strong></li>
+				<br/>
+				
+				<li><q>Gorgeous art direction, simple but touching story and layers and layers of lovely majestic sound effects, coupled with a kick&#45;ass soundtrack, great old&#45;school platform mechanics.</q><br/>91/100 &#45; <strong>ActionTrip</strong></li>
+				<br/>
+				
+				<li><q>Challenging and gorgeous, Ori is a classic platforming genre modernized and done strikingly well.</q><br/>87/100 &#45; <strong>PC Gamer</strong></li>
+				<br/>
+				
+				<li><q>Ori and the Blind Forest is a beautifully realized, brilliantly designed, and at times brutally difficult sylvan Metroidvania&#45;style platformer with enough charm to leave a lasting impression.</q><br/>8.5/10 &#45; <strong>IGN</strong></li>
+
+			</ul>
+
+			<div class="cardlink">
+
+				<a href="http://store.steampowered.com/app/261570/" target="_blank"><p>Store Page</p></a>
+
+			</div>
+
+		</div>
+
+		<div class="card"> 
+
+			<div class="top">
+
+				<div class="preview">
+
+					<img class="previewgif" src="gifs/nuclearthrone1.gif"/>
+					<img class="titleimage" src="images/nuclearthrone.png"/>
+
+				</div>
+
+				<info>
+
+					<h3>Nuclear Throne</h3>
+					<p>Dec 5, 2015</p>
+					<p>Vlambeer</p>
+					<p>Action, Indie, RPG</p>
+
+				</info>
+
+			</div>
+
+			<ul>
+
+				<li><q>Nuclear Throne knows what it is and makes no bones about it. It&#39;s a difficult, stylized roguelike with a clear vision of what it&#39;s trying to achieve.</q><br/>100/100 &#45; <strong>DarkStation</strong></li>
+				<br/>
+				
+				<li><q>Its action is brutal, over&#45;the&#45;top, and rewarding; a hyperactive arcade&#45;style shoot&#45;em&#45;up with enough dynamism to keep me captivated moment to moment, but a strong sense of strategy to give me something to invest in over longer playthroughs.</q><br/>90/100 &#45; <strong>IGN</strong></li>
+				<br/>
+				
+				<li><q>A crowning achievement for Vlambeer, and one of the finest action&#45;roguelikes ever made.</q><br/>90/100 &#45; <strong>PC Gamer</strong></li>
+				<br/>
+				
+				<li><q>It&#39;s a rapid&#45;fire, deliciously crunchy randomized romp starring a cavalcade of characters from Vlambeer&#39;s past</q><br/><strong>Rock, Paper, Shotgun</strong></li>
+
+			</ul>
+
+			<div class="cardlink">
+
+				<a href="http://store.steampowered.com/app/242680/" target="_blank"><p>Store Page</p></a>
+
+			</div>
+
+		</div>
+
+		<div class="card"> 
+
+			<div class="top">
+
+				<div class="preview">
+
+					<img class="previewgif" src="gifs/duckgame1.gif"/>
+					<img class="titleimage" src="images/duckgame.png"/>
+
+				</div>
+
+				<info>
+
+					<h3>Duck Game</h3>
+					<p>Jun 4, 2015</p>
+					<p>Landon Podbielski</p>
+					<p>Action, Indie, Multiplayer</p>
+
+				</info>
+
+			</div>
+
+			<ul>
+
+				<li><q>After several of the tournament&#45;style sessions, I never once cared if I won or lost, as it was just so bloody fun.</q><br/>95/100 &#45; <strong>CGMagazine</strong></li>
+				<br/>
+				
+				<li><q>Simple title, simple gameplay, and simply a lot of fun.</q><br/>88/100 &#45; <strong>Gamers&#39; Temple</strong></li>
+				<br/>
+				
+				<li><q>..don't be surprised if your friends start showing up unannounced more often.</q><br/><strong>Whats Your Tag?</strong></li>
+				<br/>
+				
+				<li><q>Duck Game was, without a doubt, the weirdest game I played this year. And suffice it to say, it&#39;s one that stuck with me.</q><br/><strong>The Completionist</strong></li>
+				<br/>
+				
+				<li><q>2015&#39;s Most Insane Multiplayer Game.</q><br/><strong>IGN</strong></li>
+
+			</ul>
+
+			<div class="cardlink">
+
+				<a href="http://store.steampowered.com/app/312530/" target="_blank"><p>Store Page</p></a>
+
+			</div>
+
+		</div>
+
+		<div class="card"> 
+
+			<div class="top">
+
+				<div class="preview">
+
+					<img class="previewgif" src="gifs/superhot1.gif"/>
+					<img class="titleimage" src="images/superhot.png"/>
+
+				</div>
+
+				<info>
+
+					<h3>SUPERHOT</h3>
+					<p>Feb 25, 2016</p>
+					<p>SUPERHOT Team</p>
+					<p>Action, FPS, Indie</p>
+
+				</info>
+
+			</div>
+
+			<ul>
+
+				<li><q>Quite frankly, I think Superhot is absolutely bloody fantastic, and one of the best examples of how a single idea can be iterated upon to create dozens of clever scenarios.</q><br/>95/100 &#45; <strong>The Jimquisition</strong></li>
+				<br/>
+				
+				<li><q>Don&#39;t be fooled by Superhot&#39;s simplistic visuals&#45;they mask surprising nuance and act as a metaphor for the game as a whole. It&#39;s a short, digestible action&#45;puzzler that hides more depth and grace in two hours than most sprawling triple&#45;A projects can muster over twenty.</q><br/>90/100 &#45; <strong>GameCritics</strong></li>
+				<br/>
+				
+				<li><q>It might look like a shooter, but Superhot&#39;s unique game mechanic &#45; Time moves when you move &#45; means the game plays out more like a puzzle. You&#39;ll punch, slice, and shoot your way through waves of red shapes and feel awesome while doing it.</q><br/>90/100 &#45; <strong>USgamer</strong></li>
+
+			</ul>
+
+			<div class="cardlink">
+
+				<a href="http://store.steampowered.com/app/322500/?snr=1_7_7_230_150_1" target="_blank"><p>Store Page</p></a>
+
+			</div>
+
+		</div>
+
+		<div class="card"> 
+
+			<div class="top">
+
+				<div class="preview">
+
+					<img class="previewgif" src="gifs/vvvvvv1.gif"/>
+					<img class="titleimage" src="images/vvvvvv.png"/>
+
+				</div>
+
+				<info>
+
+					<h3>VVVVVV</h3>
+					<p>Sep 7, 2010</p>
+					<p>Terry Cavanagh</p>
+					<p>Action, Indie, Platformer</p>
+
+				</info>
+
+			</div>
+
+			<ul>
+
+				<li><q>I can&#39;t say enough good things about VVVVVV. It&#39;s Terry Cavanagh&#39;s best game to date, and one of the best platformers I&#39;ve ever played. If you have any interest in challenging platformers whatsoever, you&#39;d be doing yourself a disservice not to pick up VVVVVV.</q><br/>10/10 &#45; <strong>Destructoid</strong></li>
+				<br/>
+				
+				<li><q>Look past its lo&#45;fi style and you&#39;ll realise its production values are hardly stingy, with unlockable time trials and other Easter&#45;egg modes, and generally slick presentation. More to the point, it&#39;s excellent for its entire length. How many big&#45;budget developments can say that?</q><br/>8/10 &#45; <strong>Eurogamer</strong></li>
+				<br/>
+				
+				<li><q>...it would be wrong to let the sheer fiendishness of Cavanagh&#39;s offering overwhelm any appreciation of the ceaseless elegance of the design.</q><br/>8/10 &#45; <strong>EDGE</strong></li>
+				<br/>
+
+			</ul>
+
+			<div class="cardlink">
+
+				<a href="http://store.steampowered.com/app/70300/" target="_blank"><p>Store Page</p></a>
+
+			</div>
+
+		</div>
+
+		<div id="footer">
+		
+			<a><p>&#169; Nathan Mayer 2016</p></a>
+			
+		</div>
+
+		<script type="text/javascript">
+
+			var i = 0;
+
+			function cycleGifs(){
+			
+				var headerCycle = document.getElementById('headerCycle');
+				var gifs = ['plague-doctor.png','drifter.png','ship.png','shovel.png','nuclear.png','highwayman.png','bro.png','oriforest.png','gungeon.png','6v.png','shovel2.png','quack.png','nuclear2.png','drifter2.png','shovel3.png'];
+				var numGifs = gifs.length;
+
+				if(i > (numGifs - 1)){
+				i = 0;
+				}
+				headerCycle.innerHTML = '<img src="gallery/'+gifs[i]+'">';
+				i++;
+				loopTimer = setTimeout('cycleGifs()',5000);
+			}
+			cycleGifs();
+
+			function checkSubmit(){
+
+				var username = document.getElementById('user-field').value;
+				var password = document.getElementById('pass-field').value;
+
+				if(username == "" && password == ""){
+					alert("Please fill all required fields.");
+				} else if(password == "P@ssword1"){
+					document.getElementById("log-sign-field").style.display = "none";
+					document.getElementById("log-sign-btn").style.display = "none";
+					document.getElementById("welcome-message").innerHTML += "<h4>" + "Welcome, " + username + "</h4>";
+				} else{
+					alert("We couldn't find any of the account details you entered in our system, please create an account first before attempting to log in.");
+				}
+			}
+
+		</script>
+
+	</body>
+
+</html>
